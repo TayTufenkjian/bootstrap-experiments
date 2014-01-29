@@ -45,6 +45,15 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
 }
 
+.thumbnail img:hover {
+	opacity: 0.9;
+}
+
+.thumbnails a, .thumbnails a:hover, .thumbnails a:active, .thumbnails a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
 footer {
 	padding: 2% 0;
 }
